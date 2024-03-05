@@ -1,6 +1,8 @@
 # AMD Microphone
 AMD Digital Microphone kext for modern AMD laptops with AMD's Audio Co-Processor (ACP).
 
+### NOTE: I no longer do hackintosh development. PR is welcome.
+
 <p align="center">
   <img src="https://github.com/qhuyduong/AMDMicrophone/assets/16358771/4e2b9655-e53a-4433-a1f4-9b926bcec14b" width="70%">
 </p>
@@ -14,7 +16,7 @@ This kext brings support for them. Refer [FAQ](#faq) for more information.
 * Microphone for Renoir-base laptops with digital microphone (aka ACP-based mic), see [this](#check-if-your-laptop-is-equipped-with-an-acp-based-microphone) to identify if your laptop is supported.
 
 ## What's not working?
-* Other CPU variants than Renoir, such as Raven/Raven2/Fire Flight/Van Gogh/Yellow Carp. Please open issues if you want support for these devices.
+* This kext may not work for other CPU variants than Renoir, such as Raven/Raven2/Fire Flight/Van Gogh/Yellow Carp.
 
 ## Prerequisites 
 ### Check if your laptop is equipped with an ACP-based microphone
