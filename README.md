@@ -1,8 +1,6 @@
 # AMD Microphone
 AMD Digital Microphone kext for modern AMD laptops with AMD's Audio Co-Processor (ACP).
 
-## NOTE: For non-ACP microphones, there is an experimental fix [here](https://github.com/qhuyduong/AppleALC)
-
 <p align="center">
   <img src="https://github.com/qhuyduong/AMDMicrophone/assets/16358771/4e2b9655-e53a-4433-a1f4-9b926bcec14b" width="70%">
 </p>
@@ -64,3 +62,4 @@ Yes. This kext is a separate driver for microphones. You still need AppleALC for
 
 #### After installing the kext, Microphone appears in the settings but no sound
 Refer [this](#check-if-your-laptop-is-equipped-with-an-acp-based-microphone) to make sure your device is supported.
+If your laptop uses High Definition Audio, microphone should work since [AppleALC v1.8.8](https://github.com/acidanthera/AppleALC/releases/tag/1.8.8).
